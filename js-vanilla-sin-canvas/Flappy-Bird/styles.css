@@ -1,0 +1,52 @@
+#board{
+    width: 100%;
+    height: 100vh;
+    background-image: url("./assets/background.jpg.crdownload");
+    background-size: cover;
+    display: block;
+}
+
+body{
+    margin: 0;
+}
+
+#upperPipe{
+    background-color: black;
+    height: 350px;
+    width: 100%;
+    transform: rotate(180deg);
+    background-image: url(./assets/pipe.png);
+    background-size: cover;
+}
+
+#bottonPipe{
+    background-color: black;
+    height: 350px;
+    width: 100%;
+     background-image: url("./assets/pipe.png");
+     background-size: cover;
+}
+
+#pipeContainer{
+    height: 100%;
+    width: 100px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    animation: pipe 5s linear 2s infinite;
+}
+
+#player{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: coral;
+    background-image: url(./assets/player.jpg);
+    background-size: cover;
+}
+
+@keyframes pipe {
+  0%   { right: 0px; }
+  100% { right: 100%; }
+}

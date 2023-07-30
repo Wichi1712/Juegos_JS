@@ -1,0 +1,70 @@
+body {
+  background-color: #232323;
+  margin: 0px;
+}
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+
+#container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+#gameTitleContainer {
+  color: white;
+  background-color: #5dcb72;
+  margin: 0;
+  height: 200px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+#stripe {
+  background-color: white;
+  text-align: center;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#fullTitle{
+  padding-top: 20px;
+  font-family: 'Bree Serif', serif;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 30px;
+  font-family: 'Bree Serif', serif;
+  font-size: inherit;
+  transition: all 0.3s;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
+  font-family: 'Bree Serif', serif;
+  font-size: inherit;
+  text-transform: uppercase;
+}
+.selected {
+  background: #5dcb72;
+}
+
+button:hover {
+  background: #5dcb72;
+}
+
+button:focus {
+  outline:0;
+}
